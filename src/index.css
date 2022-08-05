@@ -1,13 +1,143 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    background-color: antiquewhite;
+    font-family: 'Poppins';
+}
+
+.nav{
+    /* background-color: #c29525; */
+    margin-top: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    padding: 15px 30px;
+    justify-content: space-between;
+}
+
+.logo{
+    text-transform: capitalize;
+    padding: 0 70px;
+    color: #862d2d;
+}
+
+.logo_span{
+    border-radius: 50px;
+    padding: 5px 15px;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #c29525;
+}
+
+.nav_items{
+    display: flex;
+    list-style: none;
+    padding: 0 10px;
+}
+
+.nav_items li:first-child{
+    color: #c29525;
+}
+
+.nav_items li{
+    margin: 0 15px;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.cart{
+    display: flex;
+    color: #000;
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 0 70px;
+}
+
+.cart_item{
+    margin: 0 15px;
+}
+
+.log_text{
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin-top: -5px;
+    color: #fff;
+    background: #c29525;
+}
+
+/* Main Section */
+
+.main{
+    display: flex;
+}
+
+.main_text{
+    padding-top: 10px;
+    margin: 100px 100px 15px;
+    color: #000;
+}
+
+.main_text .what{
+    margin-top: 30px; 
+    font-size: 1.8rem;
+}
+
+.main_heading{
+    width: 55%;
+    color: #000;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+.main_heading strong{
+    font-size: 2.3rem;
+    color: #c29525;
+}
+
+.main_para{
+    margin-top: 10px;
+    line-height: 1.4;
+    width: 53%;
+    font-size: 0.8rem;
+}
+
+.btn{
+    padding-top: 15px;
+    margin-left: 100px;
+}
+
+.btn1{
+    background-color: #c29525;
+    margin-right: 15px;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    width: 22%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    text-transform: capitalize;
+}
+
+.btn2{
+    text-transform: capitalize;
+    background: transparent;
+    border-color: #474646;
+    border-radius: 50px;
+    outline: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 22%;
+    height: 40px;
 }

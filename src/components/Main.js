@@ -1,5 +1,5 @@
 import React from 'react'
-
+import chicken from '../images/grilled_chicken.jpg'
 
 export default function Main () {
     return (
@@ -28,7 +28,7 @@ export default function Main () {
             </div>
 
             <div className='image_container'>
-                <img src='../images/grilled_chicken.jpg' alt=''/>
+                <img src={chicken} alt=''/>
             </div>
               
         </div>

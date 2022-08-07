@@ -3,11 +3,11 @@ import React from 'react'
 
 export default function Order(props){
      return (
-
-    <div className='card_container'>
+    <>
+    <section className='card_container'>
         <div className='card'>
            <div className='card_image'>
-               <img src= {`../images/${props.image}`} alt=''/>
+               <img src= {props.image} alt=''/>
             </div>    
 
             <div className='card_text'>
@@ -24,7 +24,7 @@ export default function Order(props){
                     </div>
 
                     <div className='price_items'>
-                        <p className='price'>$ <span>{props.price}</span></p>
+                        <p className='price'> &#8358; <span>{props.price}</span></p>
                     </div>
                 
                 </div>
@@ -35,7 +35,8 @@ export default function Order(props){
             </div>
         </div>   
     
-    </div>
+    </section>
+    </>
     
      )
 }

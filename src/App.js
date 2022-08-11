@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Navbar from './components/Navbar'
 import Main from './components/Main'
 import Order from './components/Order'
@@ -10,8 +11,8 @@ import rice from './images/jellof_rice.jpg'
 
 
 
-
 function App() {
+
   return (
       <>
         <Navbar />
@@ -42,8 +43,11 @@ function App() {
            text="free soft drink / meat"
            price="1500"
         /> 
+
       </>
-  );
+  )
 }
 
 export default App;
+
+

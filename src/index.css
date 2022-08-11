@@ -9,6 +9,7 @@
 body{
     background-color: antiquewhite;
     font-family: 'Poppins';
+    overflow-x: hidden;
 }
 
 .nav{
@@ -250,3 +251,86 @@ hr{
 .card_add h2{
    font-size: 1rem;
 }
+
+
+/* Media Quaries */
+/* @media  (max-width: 768px){
+    body{
+        background-color: cadetblue;
+    }
+
+    .nav{
+        margin-top: 10px;
+        text-transform: capitalize;
+        color: #fff;
+        height: 50px;
+         display: flex; 
+        padding: 15px 30px;
+    
+    }
+    
+    .logo{
+        padding: 0 30px;
+        font-size: 0.7rem;
+    }
+    
+    .logo_span{
+        padding: 5px 10px;
+        font-size: 1.1rem;
+    }
+    
+    .nav_items{
+        background: aliceblue;
+        width: 100%;
+        height: 450px;
+        position: relative;
+        margin-top: -30px;
+        padding-top: 50px;
+        margin-left: 300px;
+        display: list-item;
+    }
+    
+    .nav_items li:first-child{
+        color: #c29525;
+    }
+    
+    .nav_items li{
+        margin: 40px 80px;
+        color: #000;
+        font-size: 1rem;
+    }
+    
+    .cart{
+        position: absolute;
+        display: flex;
+        
+        color: #000;
+        cursor: pointer;
+        font-size: 1rem;
+        padding: 0 px;
+        
+    }
+    
+    .cart_item{
+        margin: 0 10px;
+        font-size: 0.9rem;
+    }
+
+    .cart_fix{
+        position: absolute;
+        margin-left: 20px;
+        padding-left: 50px;
+        z-index: 1;
+    }
+    
+    .cart_fix2{
+        position: absolute;
+    }
+
+    .log_text{
+        padding: 5px 50px;
+        font-size: 0.7rem;
+        color: #fff;
+        background: #c29525;
+    }
+} */

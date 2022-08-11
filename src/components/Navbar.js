@@ -19,15 +19,15 @@ const Navbar = () => {
     </ul>
 
     <div className="cart">
-      <div className='cart_item'>
+      <div className='cart_item cart_fix'>
          <i class="fa fa-search"></i>
       </div>
 
-      <div className='cart_item'>
+      <div className='cart_item cart_fix'>
          <i class="fa fa-cart-plus"></i>
       </div>
 
-      <div className='cart_item'>
+      <div className='cart_item cart_fix2'>
           <p className='log_text'>log in</p>
       </div>
       
